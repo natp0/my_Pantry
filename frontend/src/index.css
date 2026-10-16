@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --color-pantry-ink: #1f2a24;
+  --color-pantry-muted: #5c6b63;
+  --color-pantry-paper: #f6f3ee;
+  --color-pantry-leaf: #2f6b4f;
+  --color-pantry-leaf-dark: #24553e;
+  --color-pantry-orange: #e07a3d;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-pantry-paper);
+  color: var(--color-pantry-ink);
+  font-family: var(--font-sans);
+}
+
+button {
+  font: inherit;
+}

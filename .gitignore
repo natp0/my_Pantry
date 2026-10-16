@@ -1,0 +1,83 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments (uv, venv)
+.venv/
+venv/
+env/
+
+# Packaging
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.whl
+
+# Test / type / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Django
+*.log
+local_settings.py
+staticfiles/
+*.pot
+
+# SQLite
+db.sqlite3
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*-journal
+*-wal
+*-shm
+
+# Secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# User-uploaded media (keep the folder)
+backend/media/*
+!backend/media/.gitkeep
+
+# Node / Vite
+node_modules/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
